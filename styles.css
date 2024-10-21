@@ -168,3 +168,37 @@ header img {
     border-bottom: #5a5a5a solid ;
 }
 
+.features-container{
+    background-color: #000;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.feature-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.feature-images h4, p {
+    color: #fff;
+}
+
+.feature-images img{
+    padding-bottom: 2rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    gap: 50px;
+}
+
+
