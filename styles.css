@@ -82,15 +82,22 @@ header img {
     object-fit: cover;
 }
 
+/* LANCAMENTOS */
+
 .lancamentos {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 50px;
+    /* justify-content: center; */
 }
 
 .lista-produtos {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    /* max-width: 1600px; */
+    align-items: center;
 }
 
 .lancamentos h2 {
@@ -110,6 +117,7 @@ header img {
 
 .pro{
     width: 20%;
+    max-width: 500px;
 }
 
 .stars i {
@@ -140,11 +148,9 @@ header img {
 }
 
 .botao {
-    /* position: absolute; */
     bottom: 0;
     left: 0;
     width: 100%;
-    display: none;
 }
 
 .compre-button {
@@ -179,10 +185,10 @@ header img {
 }
 
 .feature-images {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
     text-align: center;
 }
 
@@ -197,8 +203,6 @@ header img {
 .image-container {
     display: flex;
     justify-content: center;
-    width: 1400px;
+    width: 1600px;
     gap: 50px;
 }
-
-
