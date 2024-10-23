@@ -267,11 +267,12 @@ header img {
     font-weight: 100;
     font-size: 128px;
     font-style: italic;
-    line-height: 0.6;
+    line-height: 0.8;
 }
 
 .colecoes p{
     font-size: 24px;
+    line-height: 1.2;
 }
 
 .colecoes button{
