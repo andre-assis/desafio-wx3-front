@@ -21,6 +21,7 @@ header {
 .nav ul {
     display: flex;
     gap: 30px;
+    font-size: 18px;
 }
 
 .nav a:hover {
@@ -67,6 +68,7 @@ header img {
 
 .cart p {
     font-size: 12px;
+    color: #000;
 }
 
 /* PRODUTOS */
@@ -273,13 +275,14 @@ header img {
 .colecoes p{
     font-size: 24px;
     line-height: 1.2;
+    font-weight: 200;
 }
 
 .colecoes button{
     background-color: transparent;
     color: white;
     width: 30%;
-    padding: 10px;
+    padding: 5px;
     border: white 2px solid;
     margin-top: 15px;
     font-size: 18px;
@@ -295,4 +298,105 @@ header img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.depoimentos{
+    margin: 100px 0;
+}
+
+.depoimentos-persona{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.persona-info h5{
+    color: #9e7566;
+}
+
+.depoimentos-background{
+    height: 650px;
+    background-color: #000;
+}
+
+.depoimentos-texto{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.depoimentos-texto h2{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.depoimentos-texto p{
+    font-family: "Allura", cursive;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.persona1, .person2, .persona3 {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.persona1 p {
+    color: black;
+}
+
+.persona-header{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.persona-header img{
+    border-radius: 50px;
+}
+
+.persona-info{
+    text-align: center;
+    flex: 2 1 0%;
+}
+
+.persona-text{
+    display: flex;
+}
+
+.persona-text blockquote{
+    padding: 15px;
+}
+
+#quote-right{
+    display: flex;
+    align-items: flex-end;
+}
+
+#quote-right, #quote-left{
+    color: #aa7065;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.dots li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.dots .active {
+    width: 30px;
+
 }
