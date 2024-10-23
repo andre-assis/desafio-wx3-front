@@ -284,3 +284,15 @@ header img {
     margin-top: 15px;
     font-size: 18px;
 }
+
+.banner-fixo {
+    max-width: 100vw;
+    height: 50vw;
+    max-height: 700px;
+}
+
+.banner-fixo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
