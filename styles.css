@@ -417,6 +417,7 @@ p {
     height: 350px;
     width: 100%;
     background-color: #5a5a5a;
+    padding: 0 350px;
 }
 
 .form-text {
@@ -432,7 +433,7 @@ p {
     color: white;
 }
 
-.loja-container{
+.loja-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -452,7 +453,7 @@ p {
 
 .imagem-loja {
     padding: 20px;
-    width: 70% ;
+    width: 70%;
 }
 
 .imagem-loja h2 {
@@ -477,17 +478,17 @@ p {
     background-repeat: no-repeat;
 }
 
-.whatsapp h2{
+.whatsapp h2 {
     font-family: "Allura", cursive;
     font-size: 48px;
     color: #fff;
 }
 
-.logo{
+.logo {
     font-size: 48px;
 }
 
-.cadastrar{
+.cadastrar {
     padding: 4px 16px;
     background-color: #000;
     color: #fff;
@@ -495,11 +496,11 @@ p {
     cursor: pointer;
 }
 
-footer{
+footer {
     margin-top: 100px;
 }
 
-.sm-icons{
+.sm-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -508,40 +509,191 @@ footer{
     padding: 50px;
 }
 
-.info-footer{
+.info-footer {
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    overflow: auto;
 }
 
-.info-footer h4{
+.info-footer h4 {
     font-size: 14px;
     color: #5a5a5a;
     padding-bottom: 10px;
-
 }
 
-.institucinal{
+.institucinal {
     display: flex;
     flex-direction: column;
     color: #000;
 }
 
-.contato p{
+.contato p {
     color: #000;
 }
 
-#cnpj p{
+#cnpj p {
     color: #000;
     font-size: 12px;
     text-align: center;
     margin: 5px;
 }
 
-#disclaimer p{ 
+#disclaimer p {
     color: #000;
     text-align: center;
     font-size: 10px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .nav ul.active {
+        display: flex;
+    }
+
+
+    .nav ul {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .user {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .lista-produtos {
+        flex-direction: column;
+    }
+
+    .pro {
+        width: 90%;
+    }
+
+    .colecoes,
+    .banner,
+    .banner-fixo {
+        height: auto;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .esquerda, .direita{
+        width: 100%;
+    }
+
+    .linhas{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #p2, #p3{
+        display: none;
+    }
+
+    #camisolas, #linha-noite, #sutias{
+        width: 100%;
+    }
+
+    .features-container{
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .image-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .depoimentos-background{
+        height: auto;
+        padding: 0 10px;
+    }
+
+    .depoimentos-persona{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dots{
+        padding-bottom: 15px;
+    }
+
+    .form-bg{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .form-text{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .form-text p{
+        padding: 10px;
+    }
+
+    #form-inputs input, #form-input button{
+        margin: 5px;
+    }
+
+    .loja-duvida{
+        top: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .loja-duvida{
+        display: none;
+    }
+
+    .sm-icons{
+        margin-top: -100px;
+    }
+
+    .info-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
