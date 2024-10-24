@@ -21,7 +21,7 @@ header {
 .nav ul {
     display: flex;
     gap: 30px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .nav a:hover {
@@ -106,17 +106,17 @@ header img {
     font-weight: 400;
 }
 
-.lista-produtos img{
+.lista-produtos img {
     width: 100%;
     height: 491px;
     padding: 10px 12px;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin: 15px 0;
     line-height: 0.5px;
     object-fit: cover;
 }
 
-.pro{
+.pro {
     width: 20%;
     max-width: 500px;
 }
@@ -167,15 +167,15 @@ header img {
     text-align: center;
 }
 
-.pro:hover .botao {
+/* .pro:hover .botao {
     display: block;
+} */
+
+.lista-produtos a:hover {
+    border-bottom: #5a5a5a solid;
 }
 
-.lista-produtos a:hover{
-    border-bottom: #5a5a5a solid ;
-}
-
-.features-container{
+.features-container {
     background-color: #000;
     width: 100%;
     height: 15rem;
@@ -189,11 +189,12 @@ header img {
     text-align: center;
 }
 
-.feature-images h4, p {
+.feature-images h4,
+p {
     color: #fff;
 }
 
-.feature-images img{
+.feature-images img {
     padding-bottom: 2rem;
 }
 
@@ -204,20 +205,21 @@ header img {
     gap: 50px;
 }
 
-.colecoes{
+.colecoes {
     width: 100%;
     background-color: black;
-    height: 1000px;
+    height: 900px;
     display: flex;
     align-items: center;
 }
 
-.esquerda, .direita{
+.esquerda,
+.direita {
     height: 100%;
     width: 100%;
 }
 
-.direita{
+.direita {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -235,26 +237,26 @@ header img {
 
 #camisolas {
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7)), url(./img/camisolas.jpg);
-    background-size: cover; 
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
 
-#linha-noite{
+#linha-noite {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./img/linha-noite.jpg);
-    background-size: cover; 
+    background-size: cover;
     height: 50%;
     width: 100%;
 }
 
-#sutias{
+#sutias {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./img/sutias.jpg);
-    background-size: cover; 
+    background-size: cover;
     height: 50%;
     width: 100%;
 }
 
-.linhas-texto{
+.linhas-texto {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -267,18 +269,18 @@ header img {
 .linhas-texto h2 {
     font-family: "Allura", cursive;
     font-weight: 100;
-    font-size: 128px;
+    font-size: 100px;
     font-style: italic;
     line-height: 0.8;
 }
 
-.colecoes p{
+.colecoes p {
     font-size: 24px;
     line-height: 1.2;
     font-weight: 200;
 }
 
-.colecoes button{
+.colecoes button {
     background-color: transparent;
     color: white;
     width: 30%;
@@ -300,45 +302,47 @@ header img {
     object-fit: cover;
 }
 
-.depoimentos{
+.depoimentos {
     margin: 100px 0;
 }
 
-.depoimentos-persona{
+.depoimentos-persona {
     display: flex;
     gap: 30px;
     justify-content: center;
     margin-top: 50px;
 }
 
-.persona-info h5{
+.persona-info h5 {
     color: #9e7566;
 }
 
-.depoimentos-background{
+.depoimentos-background {
     height: 650px;
     background-color: #000;
 }
 
-.depoimentos-texto{
+.depoimentos-texto {
     color: white;
     text-align: center;
     padding-top: 50px;
 }
 
-.depoimentos-texto h2{
+.depoimentos-texto h2 {
     font-size: 48px;
     font-weight: 300;
 }
 
-.depoimentos-texto p{
+.depoimentos-texto p {
     font-family: "Allura", cursive;
     font-style: italic;
     font-size: 48px;
     font-weight: 100;
 }
 
-.persona1, .person2, .persona3 {
+.persona1,
+.person2,
+.persona3 {
     background-color: white;
     color: black;
     padding: 30px;
@@ -349,34 +353,35 @@ header img {
     color: black;
 }
 
-.persona-header{
+.persona-header {
     display: flex;
     margin-bottom: 25px;
 }
 
-.persona-header img{
+.persona-header img {
     border-radius: 50px;
 }
 
-.persona-info{
+.persona-info {
     text-align: center;
     flex: 2 1 0%;
 }
 
-.persona-text{
+.persona-text {
     display: flex;
 }
 
-.persona-text blockquote{
+.persona-text blockquote {
     padding: 15px;
 }
 
-#quote-right{
+#quote-right {
     display: flex;
     align-items: flex-end;
 }
 
-#quote-right, #quote-left{
+#quote-right,
+#quote-left {
     color: #aa7065;
 }
 
@@ -394,9 +399,149 @@ header img {
     background-color: #fff;
     margin: 10px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .dots .active {
     width: 30px;
+}
 
+/* FORM */
+
+.form {
+    width: 100%;
+    margin-top: 100px, 0;
+}
+
+.form-bg {
+    height: 350px;
+    width: 100%;
+    background-color: #5a5a5a;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    margin: 100px;
+}
+
+.texto-form {
+    color: white;
+}
+
+.loja-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 200px;
+    background: white;
+}
+
+.loja-duvida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.imagem-loja {
+    padding: 20px;
+    width: 70% ;
+}
+
+.imagem-loja h2 {
+    display: flex;
+    width: 100%;
+    height: 95%;
+    margin: 5px;
+    background: #5a5a5a;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp {
+    padding: 20px;
+    width: 40%;
+    margin: 25px;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./img/whatsapp.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.whatsapp h2{
+    font-family: "Allura", cursive;
+    font-size: 48px;
+    color: #fff;
+}
+
+.logo{
+    font-size: 48px;
+}
+
+.cadastrar{
+    padding: 4px 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+.sm-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    font-size: 32px;
+    padding: 50px;
+}
+
+.info-footer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-footer h4{
+    font-size: 14px;
+    color: #5a5a5a;
+    padding-bottom: 10px;
+
+}
+
+.institucinal{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.contato p{
+    color: #000;
+}
+
+#cnpj p{
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+}
+
+#disclaimer p{ 
+    color: #000;
+    text-align: center;
+    font-size: 10px;
 }

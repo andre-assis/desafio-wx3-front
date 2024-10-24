@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- FONT-AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -281,7 +283,7 @@
                     <div class="linhas-texto">
                         <h2>Camisolas</h2>
                         <p>Para quem <br>quer relaxar</p>
-                        <button>VEJA MAIS</button>
+                        <button class="veja">VEJA MAIS</button>
                     </div>
                 </div>
             </div>
@@ -290,14 +292,14 @@
                     <div class="linhas-texto">
                         <h2>Linha noite</h2>
                         <p>Para quem ama <br> praticidade</p>
-                        <button>VEJA MAIS</button>
+                        <button class="veja">VEJA MAIS</button>
                     </div>
                 </div>
                 <div id="sutias">
                     <div class="linhas-texto">
                         <h2>Sutiãs</h2>
                         <p>Para quem ama <br> conforto</p>
-                        <button>VEJA MAIS</button>
+                        <button class="veja">VEJA MAIS</button>
                     </div>
                 </div>
             </div>
@@ -428,7 +430,8 @@
                     </div>
                     <div class="persona-text">
                         <i id="quote-left" class="fa-solid fa-quote-left"></i>
-                        <blockquote>"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Animi, voluptatibus."</blockquote>
+                        <blockquote>"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Animi, voluptatibus."
+                        </blockquote>
                         <i id="quote-right" class="fa-duotone fa-solid fa-quote-right"></i>
                     </div>
                 </div>
@@ -449,7 +452,8 @@
                     </div>
                     <div class="persona-text">
                         <i id="quote-left" class="fa-solid fa-quote-left"></i>
-                        <blockquote>"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Animi, voluptatibus."</blockquote>
+                        <blockquote>"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Animi, voluptatibus."
+                        </blockquote>
                         <i id="quote-right" class="fa-duotone fa-solid fa-quote-right"></i>
                     </div>
                 </div>
@@ -470,11 +474,12 @@
                     </div>
                     <div class="persona-text">
                         <i id="quote-left" class="fa-solid fa-quote-left"></i>
-                        <blockquote>"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Animi, voluptatibus."</blockquote>
+                        <blockquote>"Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Animi, voluptatibus."
+                        </blockquote>
                         <i id="quote-right" class="fa-duotone fa-solid fa-quote-right"></i>
                     </div>
                 </div>
-                
+
             </div>
             <ul class="dots">
                 <li class="active"></li>
@@ -485,6 +490,85 @@
             </ul>
         </div>
     </section>
+
+    <!-- FORM -->
+     
+    <section class="form">
+        <div class="form-bg">
+            <div class="form-text">
+                <div class="logo">LOGO</div>
+                <div class="texto-form">
+                    <p>Cadastre-se o seu e-mail e <strong>ganhe <br> 10% de desconto</strong> na sua primeira compra
+                    </p>
+                </div>
+                <form action="#">
+                    <input type="nome" id="nome" name="nome" placeholder="NOME">
+                    <input type="nome" id="nome" name="nome" placeholder="E-MAIL">
+                    <button class="cadastrar">CADASTRAR</button>
+                </form>
+            </div>
+            <div class="loja-duvida">
+                <div class="loja-container">
+                    <div class="imagem-loja">
+                        <h2>IMAGEM DA LOJA</h2>
+                    </div>
+                    <div class="whatsapp">
+                        <h2>Alguma dúvida?</h2>
+                        <p>Entre em contato pelo nosso<br><span>whatsapp (22)99898-9898</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="sm-icons">
+            <div><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+            <div><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+            <div><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+        </div>
+
+        <div class="info-footer">
+            <div class="institucional">
+                <h4>Institucional</h4>
+                <p><a href="#">Quem somos</a></p>
+                <p><a href="#">Loja Física</a></p>
+                <p><a href="#">Central de ajuda</a></p>
+                <p><a href="#">Contato</a></p>
+                <p><a href="#">PROCON-RJ</a></p>
+            </div>
+            <div class="contato">
+                <h4>Contato</h4>
+                <p>Segunda a sexta De 7 as 17h</p>
+                <p>(22)2522-2222</p>
+                <p>(22)99999-9999</p>
+                <p>contato@teste.com.br</p>
+            </div>
+            <div class="pagamento">
+                <h4>Formas de pagamento</h4>
+                <img src="img/pagamento.png" alt="">
+            </div>
+            <div class="correios">
+                <h4>Formas de entrega</h4>
+                <img src="/img/correios.png" alt="">
+            </div>
+            <div class="seguranca">
+                <h4>Segurança e qualidade</h4>
+                <img src="img/bit.png" alt="">
+                <img src="img/ssl.png" alt="">
+            </div>
+        </div>
+
+        <hr>
+        <div id="cnpj">
+            <p>LOREM IPSUM COMERCIO DE VESTUARIO LTDA.|CNPJ:01.111.000/0001-01 /RUA DAS COUVES, 100, CENTRO, NOVA FRIBURGO/RJ-26.600-000</p>
+        </div>
+        <hr>
+        <div id="disclaimer">
+            <p>Preços e condições de pagamento exclusivos para compras via internet. Ofertas válidas até o término de nossos estoques para internet. Vendas sujeitas à análise e <br>confirmação de dados. Em caso de divergência de precos no site, o valor válido é o do carrinho de compras.</p>
+        </div>
+    </footer>
+
 
     <script src="script.js"></script>
 </body>
