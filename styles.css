@@ -680,6 +680,11 @@ footer {
         text-align: center;
     }
 
+    #form-inputs{
+        display: flex;
+        flex-direction: column;
+    }
+
     #form-inputs input, #form-input button{
         margin: 5px;
     }
